@@ -50,17 +50,17 @@
 
                     <li class="nav-item">
                         <form action="votesearch.do">
-                            <a class="nav-link" href="VoteSearch.jsp">투표 검색</a>
+                            <a class="nav-link" href="votesearch.do">투표 검색</a>
                         </form>
                     </li>
                     <li class="nav-item">
                         <form action="voteinspect.do">
-                            <a class="nav-link" href="VoteInspect.jsp">투표 검사</a>
+                            <a class="nav-link" href="voteinspect.do">투표 검사</a>
                         </form>
                     </li>
                     <li class="nav-item">
                         <form action="voterank.do">
-                            <a class="nav-link" href="VoteRank.jsp">투표 순위</a>
+                            <a class="nav-link" href="voterank.do">투표 순위</a>
                         </form>
                     </li>
                     <li class="nav-item">

@@ -34,17 +34,17 @@
                 <ul class="navbar-nav ml-auto">
                                        <li class="nav-item">
                         <form action="teachersearch.do">
-                            <a class="nav-link" href="TeacherSearch.jsp">강사 검색</a>
+                            <a class="nav-link" href="teachersearch.do">강사 검색</a>
                         </form>
                     </li>
                     <li class="nav-item">
                         <form action="memberinfosearch.do">
-                            <a class="nav-link" href="MemberInfoSearch.jsp">회원 정보 검색</a>
+                            <a class="nav-link" href="memberinfosearch.do">회원 정보 검색</a>
                         </form>
                     </li>
                     <li class="nav-item">
                         <form action="teachersal.do">
-                            <a class="nav-link" href="TeacherSal.jsp">강사 급여</a>
+                            <a class="nav-link" href="teachersal.do">강사 급여</a>
                         </form>
                     </li>
                     <li class="nav-item">

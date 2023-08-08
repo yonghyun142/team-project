@@ -14,6 +14,12 @@
     .hd-nav { }
 	.hd-nav ul li a { font-weight: bold; font-size: 16px; }
 
+        table {
+            border-collapse: collapse;
+            width: 700px; /* 전체 표 너비 수정 */
+            margin: 130px auto; /* 가운데 정렬 */
+        }
+        
     footer { position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: #ccc; }
     </style>
 </head>
@@ -34,17 +40,17 @@
                 <ul class="navbar-nav ml-auto">
                                        <li class="nav-item">
                         <form action="teachersearch.do">
-                            <a class="nav-link" href="TeacherSearch.jsp">강사 검색</a>
+                            <a class="nav-link" href="teachersearch.do">강사 검색</a>
                         </form>
                     </li>
                     <li class="nav-item">
                         <form action="memberinfosearch.do">
-                            <a class="nav-link" href="MemberInfoSearch.jsp">회원 정보 검색</a>
+                            <a class="nav-link" href="memberinfosearch.do">회원 정보 검색</a>
                         </form>
                     </li>
                     <li class="nav-item">
                         <form action="teachersal.do">
-                            <a class="nav-link" href="TeacherSal.jsp">강사 급여</a>
+                            <a class="nav-link" href="teachersal.do">강사 급여</a>
                         </form>
                     </li>
                     <li class="nav-item">

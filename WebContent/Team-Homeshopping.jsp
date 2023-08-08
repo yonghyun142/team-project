@@ -30,12 +30,12 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                      <form action="membersal.do">
-                        <a class="nav-link" href="Team-CustList.jsp">회원매출조회</a>
+                        <a class="nav-link" href="membersal.do">회원매출조회</a>
                         </form>
                     </li>
                     <li class="nav-item">
                      <form action="custlist.do">
-                        <a class="nav-link" href="Team-MemberSal.jsp">회원목록조회</a>
+                        <a class="nav-link" href="custlist.do">회원목록조회</a>
                         </form>
                     </li>
                     <li class="nav-item">
