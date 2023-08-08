@@ -43,7 +43,7 @@
                         </form>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Team-Mainpage.jsp">홈으로</a>
+                        <a class="nav-link" href="index.jsp">홈으로</a>
                     </li>
                 </ul>
                 

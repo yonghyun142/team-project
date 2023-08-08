@@ -59,7 +59,7 @@
                         </form>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Team-Mainpage.jsp">홈으로</a>
+                        <a class="nav-link" href="index.jsp">홈으로</a>
                     </li>
                 </ul>
                 
@@ -74,32 +74,32 @@
         <th class="right-column">제목 2</th>
     </tr>
     <tr>
-        <td>내용 1-1</td>
-        <td class="right-column">내용 1-2</td>
+        <td></td>
+        <td class="right-column"></td>
     </tr>
     <tr>
-        <td>내용 2-1</td>
-        <td class="right-column">내용 2-2</td>
+        <td></td>
+        <td class="right-column"></td>
     </tr>
     <tr>
-        <td>내용 3-1</td>
-        <td class="right-column">내용 3-2</td>
+        <td></td>
+        <td class="right-column"></td>
     </tr>
     <tr>
-        <td>내용 4-1</td>
-        <td class="right-column">내용 4-2</td>
+        <td></td>
+        <td class="right-column"></td>
     </tr>
     <tr>
-        <td>내용 5-1</td>
-        <td class="right-column">내용 5-2</td>
+        <td></td>
+        <td class="right-column"></td>
     </tr>
     <tr>
-        <td>내용 6-1</td>
-        <td class="right-column">내용 6-2</td>
+        <td></td>
+        <td class="right-column"></td>
     </tr>
     <tr>
-        <td>내용 7-1</td>
-        <td class="right-column">내용 7-2</td>
+        <td></td>
+        <td class="right-column"></td>
     </tr>
 </table>
     </main>

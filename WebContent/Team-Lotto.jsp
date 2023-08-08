@@ -103,7 +103,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="Team-Mainpage.jsp">메인페이지</a>
+        <a class="navbar-brand" href="Team-Game-Mainpage.jsp">메인페이지</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
           aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -117,7 +117,7 @@
               <a class="nav-link active" aria-current="page" href="Team-Rsp.jsp">가위바위보</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Team-Mainpage.jsp">홈으로</a>
+              <a class="nav-link" href="index.jsp">홈으로</a>
           </li>
           </ul>
           <form class="d-flex">
