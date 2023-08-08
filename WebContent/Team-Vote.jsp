@@ -47,7 +47,11 @@
             </button>
             <div class="collapse navbar-collapse hd-nav" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-
+					<li class="nav-item">
+                        <form action="votesearch.do">
+                            <a class="nav-link" href="vote.do">투표하기</a>
+                        </form>
+                    </li>
                     <li class="nav-item">
                         <form action="votesearch.do">
                             <a class="nav-link" href="votesearch.do">투표 검색</a>

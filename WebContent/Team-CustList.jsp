@@ -34,6 +34,11 @@
             </button>
             <div class="collapse navbar-collapse hd-nav" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
+                	<li class="nav-item">
+                        <form action="createmember.do">
+                            <a class="nav-link" href="createmember.do">회원생성</a>
+                        </form>
+                    </li>
                     <li class="nav-item">
                      <form action="membersal.do">
                         <a class="nav-link" href="membersal.do">회원매출조회</a>
@@ -43,12 +48,6 @@
                      <form action="custlist.do">
                         <a class="nav-link" href="custlist.do">회원목록조회</a>
                         </form>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.jsp">홈으로</a>

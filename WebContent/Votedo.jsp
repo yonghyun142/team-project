@@ -17,7 +17,7 @@
             margin: 130px auto; /* 가운데 정렬 */
         }
         
-    footer { position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: #ccc; } 
+    footer { position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: #ccc; }
     </style>
 </head>
 <body>
@@ -31,7 +31,8 @@
             </button>
             <div class="collapse navbar-collapse hd-nav" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-					<li class="nav-item">
+
+ 					<li class="nav-item">
                         <form action="votesearch.do">
                             <a class="nav-link" href="vote.do">투표하기</a>
                         </form>
@@ -63,15 +64,15 @@
 <table width="500" border="1">
       
 
-      <c:forEach var="dto" items="${voteSearch}">
+      <c:forEach var="dto" items="${voteInspect}">
          <tr>
-            <td>${dto.mno}</td>
-            <td>${dto.mName}</td>
-            <td>${dto.pName}</td>
-            <td>${dto.pSchool}</td>
-            <td>${dto.mJumin}</td>
-            <td>${dto.mCity}</td>
-            <td>${dto.tel}</td>
+            <td>${dto.vName}</td>
+            <td>${dto.birthday}</td>
+            <td>${dto.age}</td>
+            <td>${dto.gender}</td>
+            <td>${dto.voteNumber}</td>
+            <td>${dto.voteTime}</td>
+            <td>${dto.voterInspect}</td>
          </tr>
       </c:forEach>
    
