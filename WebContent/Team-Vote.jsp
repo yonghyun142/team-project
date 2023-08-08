@@ -8,8 +8,13 @@
     <!-- 부트스트랩 CDN 링크 추가 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* 표 스타일링 */
+    .hd-nav { }
+	.hd-nav ul li a { font-weight: bold; font-size: 16px; }
 
+        /* 표 스타일링 */
+   
+    	footer { position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: #ccc; }
+ 
         table {
             border-collapse: collapse;
             width: 700px; /* 전체 표 너비 수정 */
@@ -26,7 +31,7 @@
             background-color: #f2f2f2;
         }
         .right-column {
-            width: 550px; /* 오른쪽 열의 셀 넓이 지정 */
+            width: 1000px; /* 오른쪽 열의 셀 넓이 지정 */
         }
 
     </style>
@@ -35,12 +40,12 @@
     <header>
         <!-- 내비게이션 바 -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./team-vote.html">투표</a>
+            <a class="navbar-brand" href="Team-Vote.jsp">투표</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse hd-nav" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">

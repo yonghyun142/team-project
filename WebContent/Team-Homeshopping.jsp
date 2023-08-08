@@ -10,7 +10,12 @@
   <title>홈쇼핑</title>
     <!-- 부트스트랩 CDN 링크 추가 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
+    <style>
+    .hd-nav { }
+	.hd-nav ul li a { font-weight: bold; font-size: 16px; }
+
+    footer { position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: #ccc; }
+    </style>
 </head>
 <body>
     <header>
@@ -21,7 +26,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse hd-nav" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                      <form action="membersal.do">

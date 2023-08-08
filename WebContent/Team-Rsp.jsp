@@ -16,6 +16,9 @@
   
 
     <style>
+    .hd-nav { }
+	.hd-nav ul li a { font-weight: bold; font-size: 16px; }
+
         #computer img {
             width: 142px;
             height: 200px;
@@ -142,7 +145,7 @@
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
+                <div class="collapse navbar-collapse hd-nav" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="Team-Lotto.jsp">로또</a>

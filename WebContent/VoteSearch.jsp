@@ -8,27 +8,10 @@
     <!-- 부트스트랩 CDN 링크 추가 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* 표 스타일링 */
+    .hd-nav { }
+	.hd-nav ul li a { font-weight: bold; font-size: 16px; }
 
-        table {
-            border-collapse: collapse;
-            width: 700px; /* 전체 표 너비 수정 */
-            margin: 130px auto; /* 가운데 정렬 */
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-        .right-column {
-            width: 550px; /* 오른쪽 열의 셀 넓이 지정 */
-        }
-
+    footer { position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: #ccc; } 
     </style>
 </head>
 <body>
@@ -40,7 +23,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse hd-nav" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
