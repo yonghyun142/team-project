@@ -50,7 +50,18 @@
         </nav>
     </header>
     <main>
+<table width="500" border="1">
+      
 
+      <c:forEach var="dto" items="${voteRank}">
+         <tr>
+            <td>${dto.mno}</td>
+            <td>${dto.mName}</td>
+            <td>${dto.count}</td>
+         </tr>
+      </c:forEach>
+   
+   </table>
     </main>
     <footer class="mt-5 py-3 text-center">
         <p>HRDKOREA Copyright@ 2015 All rights reserved.

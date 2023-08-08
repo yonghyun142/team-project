@@ -50,7 +50,22 @@
         </nav>
     </header>
     <main>
+<table width="500" border="1">
+      
 
+      <c:forEach var="dto" items="${voteInspect}">
+         <tr>
+            <td>${dto.vName}</td>
+            <td>${dto.birthday}</td>
+            <td>${dto.age}</td>
+            <td>${dto.gender}</td>
+            <td>${dto.voteNumber}</td>
+            <td>${dto.voteTime}</td>
+            <td>${dto.voterInspect}</td>
+         </tr>
+      </c:forEach>
+   
+   </table>
     </main>
     <footer class="mt-5 py-3 text-center">
         <p>HRDKOREA Copyright@ 2015 All rights reserved.

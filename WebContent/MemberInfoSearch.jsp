@@ -56,7 +56,22 @@
         </nav>
     </header>
     <main>
-        <!-- 각각의 정보를 출력할 공간 -->
+        <table width="500" border="1">
+      
+
+      <c:forEach var="dto" items="${searchMemberInfo}">
+         <tr>
+            <td>${dto.registMonth}</td>
+            <td>${dto.cno}</td>
+            <td>${dto.cname}</td>
+            <td>${dto.className}</td>
+            <td>${dto.classArea}</td>
+            <td>${dto.classPrice}</td>
+            <td>${dto.grade}</td>
+         </tr>
+      </c:forEach>
+   
+   </table>
     </main>
     <footer class="mt-5 py-3 text-center">
         <p>HRDKOREA Copyright@ 2015 All rights reserved.

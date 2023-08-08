@@ -50,7 +50,22 @@
         </nav>
     </header>
     <main>
+<table width="500" border="1">
+      
 
+      <c:forEach var="dto" items="${voteSearch}">
+         <tr>
+            <td>${dto.mno}</td>
+            <td>${dto.mName}</td>
+            <td>${dto.pName}</td>
+            <td>${dto.pSchool}</td>
+            <td>${dto.mJumin}</td>
+            <td>${dto.mCity}</td>
+            <td>${dto.tel}</td>
+         </tr>
+      </c:forEach>
+   
+   </table>
     </main>
     <footer class="mt-5 py-3 text-center">
         <p>HRDKOREA Copyright@ 2015 All rights reserved.
